@@ -15,7 +15,7 @@ startdate: 2023-01-24      # machine-readable start date for the workshop in YYY
 enddate: 2023-01-26        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["ADD ME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["ADD ME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["ADD ME"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: []    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -88,7 +88,7 @@ the pitch.
 
 **Workflows with Nextflow**
 
-This lesson is a two day introduction to the workflow manager [Nextflow](https://www.nextflow.io/), and [nf-core](https://nf-co.re/), a community effort to collect a curated set of analysis pipelines built using Nextflow.
+This lesson is a three day introduction to the workflow manager [Nextflow](https://www.nextflow.io/), and [nf-core](https://nf-co.re/), a community effort to collect a curated set of analysis pipelines built using Nextflow.
 
 Nextflow enables scalable and reproducible scientific workflows using software enviroments like conda. It allows the adaptation of pipelines written in the most common scripting languages such as Bash, R and Python. Nextflow is a Domain Specific Language (DSL) that simplifies the implementation and the deployment of complex parallel and reactive workflows on clouds and clusters.
 
